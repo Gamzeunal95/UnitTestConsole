@@ -1,0 +1,14 @@
+﻿Arrange
+Test edilecek metodun kullanacağı kaynakların hazırlandığı bölümdür. 
+Değişken tanımlama, nesne oluşturma vs. gerçekleştirilir.
+
+
+Act
+Arrange aşamasında hazırlanan değişkenler yahut nesneler eşliğinde test edilecek olan metodun çalıştırıldığı bölümdür. 
+Mümkün mertebe kısa ve öz olması makbuldür.
+
+
+Assert
+Act aşamasında yapılan testin doğrulama evresidir. 
+Tek bir Act’te birden fazla sonuç gerçekleşebilir. Misal olarak; exception fırlatılabilir yahut herhangi bir türde 
+result dönebilir.

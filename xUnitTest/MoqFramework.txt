@@ -1,0 +1,24 @@
+﻿Moq Framework Nedir?
+Test edilmek istenilen sınıfların gerçek nesnelerini kullanmak yerine onları simüle etmemizi sağlayan ve böylece test süreçlerindeki 
+maliyetleri minimize etmemizi hedefleyen bir framework’tür.
+
+Test edilmek istenilen sınıfların Moq framework’ü ile simüle edilmesine Mocking denmektedir?
+
+Misal olarak, test edilecek bir sınıfın haddinden fazla uzun süreliğine çalışan metotları olduğunu düşünelim. 
+Böyle bir durumda ne yapacağız? Metotların test süreçlerinde de işlevlerinin bitmesini mi bekleyeceğiz? Tabi ki de hayır! 
+Nihayetinde bu şekilde çalışan onlarca metodumuz olabilir ve her birini beklemek demek dakilar, saatler ve hatta günler demek olabilir.
+
+İşte böyle bir durumda ilgili sınıfları simüle etmek ve sadece davranışlarını modellemek testten geçip geçmediğine dair 
+değerlendirme yapmak için yeterli olacaktır.
+
+Haliyle bunun için ilgili test uygulamasına Moq Framework‘ünü yüklemeniz ve yazımızın devamında ele alınacağı gibi metotlarından 
+faydalanmanız yeterli olacaktır.
+
+
+Peki bir sınıfı nasıl Mocking yapabiliriz?
+Bir sınıfı mocklayabilmek için o sınıfın implemente ettiği interface kullanılmalıdır. Aksi taktirde bunun dışında 
+bir yapılanmayı denemek ilgili uygulamanın derleme aşamasında hata almasına sebep olacaktır…
+
+
+https://www.gencayyildiz.com/blog/net-core-unit-test-nedir-nasil-yapilir-derinlemesine-inceleyelim/
+https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/testing?view=aspnetcore-7.0
